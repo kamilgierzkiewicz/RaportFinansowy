@@ -1,5 +1,5 @@
 /* Raport Finansowy — service worker: network-first, offline z cache */
-const CACHE = 'raportfinansowy-1.0.0';
+const CACHE = 'raportfinansowy-1.0.1';
 const ASSETS = ['./RaportFinansowy.html', './manifest.json', './RaportFinansowy-192.png', './RaportFinansowy-512.png', './RaportFinansowy-apple-touch.png', './RaportFinansowy-apple-touch-dark.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));

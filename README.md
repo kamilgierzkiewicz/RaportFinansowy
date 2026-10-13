@@ -1,4 +1,4 @@
-# Raport Finansowy — PWA (v1.0.0)
+# Raport Finansowy — PWA (v1.0.1)
 
 Koszty stałe (osobiste i firmowe), raty i leasingi, wpływy z faktur na konto firmowe z automatycznym przelewem reszty na osobiste, wydatki bieżące z kategoriami, bilans, wykresy i analiza AI.
 
@@ -9,7 +9,7 @@ Koszty stałe (osobiste i firmowe), raty i leasingi, wpływy z faktur na konto f
 4. iPhone: Safari → Udostępnij → Do ekranu początkowego (ikona: białe tło w jasnym motywie, czarne w ciemnym — ustalane w chwili dodania). Android: Chrome → ⋮ → Zainstaluj aplikację.
 
 ## Dane i synchronizacja
-Dane zostają w tym samym prywatnym repo `moneyguard-dane`. W nowej aplikacji: Ustawienia → Synchronizacja → `TWÓJLOGIN/moneyguard-dane` + token.
+Dane są w prywatnym repo `RaportFinansowy-data`. Na każdym urządzeniu: Ustawienia → Synchronizacja → `TWÓJLOGIN/RaportFinansowy-data` + token (fine-grained, Contents: Read and write). Po zmianie nazwy repo: „Odłącz to urządzenie” i połącz ponownie z nową nazwą.
 
 ## Analiza AI
 Ustawienia → Asystent AI → klucz z platform.claude.com/settings/keys (zostaje tylko w urządzeniu).

@@ -1,6 +1,6 @@
 {
   "name": "Raport Finansowy",
-  "short_name": "Raport",
+  "short_name": "Raport Finansowy",
   "description": "Koszty stałe, raty i leasingi, wpływy firmowe, wydatki bieżące i analiza finansów",
   "lang": "pl",
   "start_url": "./RaportFinansowy.html",
