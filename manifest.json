@@ -1,0 +1,32 @@
+{
+  "name": "Raport Finansowy",
+  "short_name": "Raport",
+  "description": "Koszty stałe, raty i leasingi, wpływy firmowe, wydatki bieżące i analiza finansów",
+  "lang": "pl",
+  "start_url": "./RaportFinansowy.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0E1417",
+  "theme_color": "#0E1417",
+  "icons": [
+    {
+      "src": "RaportFinansowy-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "RaportFinansowy-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "RaportFinansowy-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
